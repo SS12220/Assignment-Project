@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 404674609}
   m_Layer: 0
   m_Name: Green - Cube
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 433335397}
   m_Layer: 0
   m_Name: Red - Capsule
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1446505f29a9a5a4eb6ebd312da74ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: -50
+  points: -100
   clip: {fileID: 8300000, guid: 7d7e1c8525a1fdb42a061ac65abd17a5, type: 3}
 --- !u!1001 &614849607
 PrefabInstance:
@@ -2476,7 +2476,7 @@ GameObject:
   - component: {fileID: 1122815070}
   m_Layer: 0
   m_Name: Red - Cube
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2579,7 +2579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1446505f29a9a5a4eb6ebd312da74ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: -50
+  points: -100
   clip: {fileID: 8300000, guid: 6722a428a12313a478b2b563a2c2a840, type: 3}
 --- !u!1 &1160274528
 GameObject:
@@ -2738,7 +2738,7 @@ GameObject:
   - component: {fileID: 1293084510}
   m_Layer: 0
   m_Name: Green - Capsule
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3608,7 +3608,7 @@ GameObject:
   - component: {fileID: 1960313378}
   m_Layer: 0
   m_Name: Green - Cylinder
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3730,7 +3730,7 @@ GameObject:
   - component: {fileID: 1989207800}
   m_Layer: 0
   m_Name: Red - Cylinder
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3835,7 +3835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1446505f29a9a5a4eb6ebd312da74ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: -50
+  points: -100
   clip: {fileID: 8300000, guid: c3258cb7c1684ee4ea0c8ab854ad1b83, type: 3}
 --- !u!1 &1991165136
 GameObject:
@@ -3985,7 +3985,7 @@ GameObject:
   - component: {fileID: 2003126483}
   m_Layer: 0
   m_Name: Red - Sphere
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4088,7 +4088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1446505f29a9a5a4eb6ebd312da74ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: -50
+  points: -100
   clip: {fileID: 8300000, guid: 1cfa0e1e144fee24a9864fe0c5c5c2f1, type: 3}
 --- !u!1 &2009522592
 GameObject:
@@ -4182,7 +4182,7 @@ GameObject:
   - component: {fileID: 2077396803}
   m_Layer: 0
   m_Name: Green - Sphere
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
