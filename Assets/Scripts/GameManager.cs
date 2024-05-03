@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject Player;
     internal int score = 0;
 
-    static int i = 0;
+    int i = 0;
 
     private void Awake()
     {
@@ -39,10 +39,10 @@ public class GameManager : MonoBehaviour
 
         if (change > 0)
         {
-            i++;
+            GameManager.instance.i++;
         }
 
-        if (i == 4)
+        if (GameManager.instance.i == 4)
         {
             GameManager.instance.completeScreen.SetActive(true);
             GameManager.instance.Player.SetActive(false);
@@ -59,6 +59,11 @@ public class GameManager : MonoBehaviour
     public void Restrat()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 
 }
